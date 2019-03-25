@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import '.';
 import './EasySurvey.css';
 
 export default class EasySurvey extends Component {
@@ -38,13 +39,7 @@ export default class EasySurvey extends Component {
               For questions with multiple options you can add or remove for your
               specific needs.
             </p>
-            <div
-              style={{
-                textAlign: 'center',
-                display: 'flex',
-                flexWrap: 'wrap'
-              }}
-            >
+            <div className='tools_1'>
               <img
                 style={{ height: '8em', padding: '3%' }}
                 src='https://icongr.am/devicon/react-original-wordmark.svg'
@@ -70,13 +65,7 @@ export default class EasySurvey extends Component {
               />
             </div>
             <hr />
-            <div
-              style={{
-                textAlign: 'center',
-                display: 'flex',
-                flexWrap: 'wrap'
-              }}
-            >
+            <div className='tools_2'>
               <img
                 style={{ height: '8em', padding: '3%' }}
                 src='https://icongr.am/devicon/html5-original-wordmark.svg'

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { reactcon } from './skillIcons/reactcon';
+import './Resume.css';
 let iconStyle = { height: '10em', padding: '3%' };
 export default class Resume extends Component {
   render() {
@@ -71,33 +72,14 @@ export default class Resume extends Component {
           </div>
           <div className='bars'>
             <ul>
-              <div
-                style={{
-                  textAlign: 'center',
-                  display: 'flex',
-                  flexDirection: 'wrap'
-                }}
-              >
+              <div className='skills_1'>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{
-                      height: '15em',
-                      padding: '3%',
-                      margin: '1em',
-                      alignItems: 'center'
-                    }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/react-original-wordmark.svg'
                     alt='react'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    REACT
-                  </h5>
+                  <h5 className='skills_h5'>REACT</h5>
                 </div>
                 <div
                   style={{
@@ -106,171 +88,77 @@ export default class Resume extends Component {
                   }}
                 >
                   <img
-                    style={{
-                      height: '15em',
-                      padding: '3%',
-                      margin: '1em',
-                      alignItems: 'center'
-                    }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/javascript-original.svg'
                     alt='javascript'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    JavaScript
-                  </h5>
+                  <h5 className='skills_h5'>JavaScript</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{
-                      height: '15em',
-                      padding: '3%',
-                      margin: '1em',
-                      alignItems: 'center'
-                    }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/nodejs-original-wordmark.svg'
                     alt='nodejs'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    NodeJs
-                  </h5>
+                  <h5 className='skills_h5'>NodeJs</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/postgresql-original-wordmark.svg'
                     alt='postgresql'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    PostgreSQL
-                  </h5>
+                  <h5 className='skills_h5'>PostgreSQL</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/html5-original-wordmark.svg'
                     alt='html5'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    HTML5
-                  </h5>
+                  <h5 className='skills_h5'>HTML5</h5>
                 </div>
               </div>
-              <div
-                style={{
-                  textAlign: 'center',
-                  display: 'flex',
-                  flexDirection: 'wrap',
-                  justifyContent: 'space-around'
-                }}
-              >
+              <div className='skills_2'>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/css3-original-wordmark.svg'
                     alt='css3'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    CSS3
-                  </h5>
+                  <h5 className='skills_h5'>CSS3</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/express-original-wordmark.svg'
                     alt='express'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    Express
-                  </h5>
+                  <h5 className='skills_h5'>Express</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/git-original-wordmark.svg'
                     alt='git'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    GIT
-                  </h5>
+                  <h5 className='skills_h5'>GIT</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{
-                      height: '15em',
-                      padding: '3%',
-                      margin: '1em',
-                      alignItems: 'center'
-                    }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/heroku-original-wordmark.svg'
                     alt='heroku'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    Heroku
-                  </h5>
+                  <h5 className='skills_h5'>Heroku</h5>
                 </div>
                 <div style={{ margin: '1em' }}>
                   <img
-                    style={{ height: '15em', padding: '3%', margin: '1em' }}
+                    className='skill_img'
                     src='https://icongr.am/devicon/npm-original-wordmark.svg'
                     alt='npm'
                   />
-                  <h5
-                    style={{
-                      border: '1px solid grey',
-                      color: '#11abb0',
-                      textShadow: '1px 1px 1px rgba(127, 127, 127, 0.3)'
-                    }}
-                  >
-                    NPM
-                  </h5>
+                  <h5 className='skills_h5'>NPM</h5>
                 </div>
               </div>
             </ul>
